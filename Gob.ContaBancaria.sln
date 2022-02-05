@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{146FCF3C-4AF5-4AD0-80FC-735897B3DE18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8874A7D3-219A-4ECC-B26F-43330832626E}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC0D44FB-1219-43FF-9FFC-656B4405FAAA}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gob.ContaBancaria.Domain", "src\Gob.ContaBancaria.Domain\Gob.ContaBancaria.Domain.csproj", "{A1719A7B-3BF3-488C-9549-AACD411CEEAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gob.ContaBancaria.Infra.Data", "src\Gob.ContaBancaria.Infra.Data\Gob.ContaBancaria.Infra.Data.csproj", "{EC572F96-85A3-4703-902C-AB59206D6C06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gob.ContaBancaria.WebApi", "src\Gob.ContaBancaria.WebApi\Gob.ContaBancaria.WebApi.csproj", "{85A3648F-45AF-40B5-BECB-26B2643D9C88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gob.ContaBancaria.Domain.Tests", "test\Gob.ContaBancaria.Domain.Tests\Gob.ContaBancaria.Domain.Tests.csproj", "{67C83072-3F71-4C7E-B569-C89E0C01354B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1719A7B-3BF3-488C-9549-AACD411CEEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1719A7B-3BF3-488C-9549-AACD411CEEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1719A7B-3BF3-488C-9549-AACD411CEEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1719A7B-3BF3-488C-9549-AACD411CEEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC572F96-85A3-4703-902C-AB59206D6C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC572F96-85A3-4703-902C-AB59206D6C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC572F96-85A3-4703-902C-AB59206D6C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC572F96-85A3-4703-902C-AB59206D6C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A3648F-45AF-40B5-BECB-26B2643D9C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A3648F-45AF-40B5-BECB-26B2643D9C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A3648F-45AF-40B5-BECB-26B2643D9C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A3648F-45AF-40B5-BECB-26B2643D9C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C83072-3F71-4C7E-B569-C89E0C01354B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C83072-3F71-4C7E-B569-C89E0C01354B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C83072-3F71-4C7E-B569-C89E0C01354B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C83072-3F71-4C7E-B569-C89E0C01354B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1719A7B-3BF3-488C-9549-AACD411CEEAA} = {146FCF3C-4AF5-4AD0-80FC-735897B3DE18}
+		{EC572F96-85A3-4703-902C-AB59206D6C06} = {146FCF3C-4AF5-4AD0-80FC-735897B3DE18}
+		{85A3648F-45AF-40B5-BECB-26B2643D9C88} = {146FCF3C-4AF5-4AD0-80FC-735897B3DE18}
+		{67C83072-3F71-4C7E-B569-C89E0C01354B} = {8874A7D3-219A-4ECC-B26F-43330832626E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902686F2-588A-4491-80CF-E0E116079E9A}
+	EndGlobalSection
+EndGlobal

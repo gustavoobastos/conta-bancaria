@@ -1,0 +1,18 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!--
+      S107:  Warning S107: Constructor has XX parameters, which is greater than the 7 authorized.
+      S5122: Warning S5122: Make sure this permissive CORS policy is safe here.
+      S4792: Warning S4792: Make sure that this logger's configuration is safe.
+    -->
+    <NoWarn>S107;S5122;S4792</NoWarn>
+  </PropertyGroup>
+  
+</Project>
